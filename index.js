@@ -1,15 +1,20 @@
-// 导出一个函数
-function txtSwitch(curStr, cumStr = '') {
-    let strList = '—□■***0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefjhijklmnopqrstuvwxyz';
+function txtSwitch(data, options) {
+    if (!data || data.length === 0) {
+        throw new Error("Data value is required");
+    }
+    let curStr = JSON.stringify(data);
+    let defaultStr = '—□■***|';
+    let curOptions = {
+        customStr: options.customStr ? options.customStr : defaultStr,
+        repeatTimes: Number.isInteger(options.repeatTimes) ? options.repeatTimes : 1
+    };
 
-    if (!curStr || curStr.length === 0) {
-        alert('缺少传入参数');
-        return;
+    if (typeof curOptions.repeatTimes !== 'number') {
+        throw new Error("repeatTimes must be a number");
     }
 
     return curStr.split("").map((v) => {
-        const randomStr = cumStr.length ? cumStr : strList;
-        return v + randomStr[Math.floor(Math.random() * randomStr.length)];
+        return v + curOptions.customStr[Math.floor(Math.random() * curOptions.customStr.length)].repeat(curOptions.repeatTimes);
     }).join("");
 }
 
