@@ -1,18 +1,16 @@
 // 导出一个函数
-function txtSwitch(curStr, cumStr) {
+function txtSwitch(curStr, cumStr = '') {
     let strList = '—□■***0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefjhijklmnopqrstuvwxyz';
-    let cumStr = ''
-    let curStr = ''
-    if (curStr.trim().length == 0) {
-        console.log(`缺少传入文本`);
-        return ''
+
+    if (!curStr || curStr.length === 0) {
+        alert('缺少传入参数');
+        return;
     }
-    return curStr.split("").map(
-        (v) =>
-        (v =
-            v + cumStr.length ? cumStr.split("")[parseInt(Math.random() * cumStr.length)] : strList[parseInt(Math.random() * strList.length)])
-    )
-        .join("")
+
+    return curStr.split("").map((v) => {
+        const randomStr = cumStr.length ? cumStr : strList;
+        return v + randomStr[Math.floor(Math.random() * randomStr.length)];
+    }).join("");
 }
 
 module.exports = txtSwitch;
