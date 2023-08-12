@@ -1,0 +1,22 @@
+{
+  "name": "txtswitch",
+  "version": "0.0.1",
+  "description": "在输入的长文本间隔随机插入一个字符",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fangxiaoxingit/txtSwitch.git"
+  },
+  "keywords": [
+    "文本转换"
+  ],
+  "author": "fangxiaoxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fangxiaoxingit/txtSwitch/issues"
+  },
+  "homepage": "https://github.com/fangxiaoxingit/txtSwitch#readme"
+}
