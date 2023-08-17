@@ -1,6 +1,6 @@
 # txtSwitch Usage Guide
 
-[中文](https://github.com/fangxiaoxingit/txtSwitch "中文说明") | [English](https://github.com/fangxiaoxingit/txtSwitch/blob/main/README.en.md "English")
+[中文](https://github.com/fangxiaoxingit/txtSwitch/blob/main/README.zh-CN.md "中文") | [English](https://github.com/fangxiaoxingit/txtSwitch/blob/main/README.en.md "English")
 
 ------------
 
