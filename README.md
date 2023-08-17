@@ -1,4 +1,8 @@
 # txtSwitch 使用说明
+[中文](https://github.com/fangxiaoxingit/txtSwitch "中文说明") | [English](https://github.com/fangxiaoxingit/txtSwitch/blob/main/README.en.md "English")
+
+------------
+
 
 **txtSwitch** 是一个用于处理文本的 npm 包，它可以帮助你在文本字符之间随机插入特定字符。
 
@@ -52,7 +56,7 @@ console.log(result);
 | 参数     | 类型   | 必需性 | 默认值 | 描述         |
 |----------|--------|------|---------|-------------|
 | data     | String | 必需  | 无     | 需要处理的字符串 |
-| options  | Object | 可选  | `{ customStr: '—□■***|', repeatTimes: 1}` | 自定义选项，包括插入字符的自定义字符串和重复的次数 |
+| options  | Object | 可选  | "{ customStr: '—□■***|', repeatTimes: 1}" | 自定义选项，包括插入字符的自定义字符串和重复的次数 |
 
 ## options 对象详细属性
 

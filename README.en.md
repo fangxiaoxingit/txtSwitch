@@ -1,6 +1,9 @@
-Here is the English translation of the markdown:
-
 # txtSwitch Usage Guide
+
+[中文](https://github.com/fangxiaoxingit/txtSwitch "中文说明") | [English](https://github.com/fangxiaoxingit/txtSwitch/blob/main/README.en.md "English")
+
+------------
+
 
 \*\*txtSwitch\*\* is an npm package for processing text that can help you randomly insert specific characters between text characters. For example:
 

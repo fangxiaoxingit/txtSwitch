@@ -1,5 +1,7 @@
 # txtSwitch 使用说明
+[中文](https://github.com/fangxiaoxingit/txtSwitch "中文说明") | [English](https://github.com/fangxiaoxingit/txtSwitch/blob/main/README.en.md "English")
 
+------------
 **txtSwitch** 是一个用于处理文本的 npm 包，它可以帮助你在文本字符之间随机插入特定字符。
 
 例如：
