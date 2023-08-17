@@ -1,6 +1,6 @@
 {
   "name": "txtswitch",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "在输入的长文本间隔随机插入一个字符",
   "main": "index.js",
   "scripts": {
