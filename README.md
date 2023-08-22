@@ -57,13 +57,13 @@ Here are the detailed descriptions of the `txtSwitch` function parameters:
 | Parameter | Type | Required | Default | Description |
 |-|-|-|-|-|
 | data | String | Required | None | The string to process | 
-| options | Object | Optional | `{ customStr: '—□■\*\*\*|', repeatTimes: 1}` | Custom options including custom string of characters to insert and number of repeats |
+| options | Object | Optional | `{ customStr: '—□■\*\*\*\|', repeatTimes: 1}` | Custom options including custom string of characters to insert and number of repeats |
 
 ## Detailed options Object Properties
 
 | Property | Type | Required | Default | Description |
 |-|-|-|-|-|
-| customStr | String | Optional | '—□■\*\*\*|' | Custom characters to insert into data |
+| customStr | String | Optional | '—□■\*\*\*\|' | Custom characters to insert into data |
 | repeatTimes | Number | Optional | 1 | Number of times to repeat insertion of characters |
 
 > Note: The `options` parameter is an object that includes `customStr` and `repeatTimes` properties. If `options` is not provided, the function will use default options. If the `options` object does not have `customStr` and/or `repeatTimes` properties, the function will use the defaults for any missing properties.
