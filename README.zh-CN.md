@@ -56,13 +56,13 @@ console.log(result);
 | 参数     | 类型   | 必需性 | 默认值 | 描述         |
 |----------|--------|------|---------|-------------|
 | data     | String | 必需  | 无     | 需要处理的字符串 |
-| options  | Object | 可选  | "{ customStr: '—□■***|', repeatTimes: 1}" | 自定义选项，包括插入字符的自定义字符串和重复的次数 |
+| options  | Object | 可选  | "{ customStr: '—□■***\|', repeatTimes: 1}" | 自定义选项，包括插入字符的自定义字符串和重复的次数 |
 
 ## options 对象详细属性
 
 | 属性        | 类型   | 必需性 | 默认值 | 描述         |
 |------------|--------|------|---------|-------------|
-| customStr   | String | 可选  | '—□■***|' | 插入数据的自定义字符 |
+| customStr   | String | 可选  | '—□■***\|' | 插入数据的自定义字符 |
 | repeatTimes | Number | 可选  | 1     | 插入字符的重复次数 |
 
 > 注意: `options` 参数是一个对象，包括了 `customStr` 和 `repeatTimes` 属性。如果不提供 `options` 参数，函数将会使用默认选项。如果 `options` 对象没有 `customStr` 和/或 `repeatTimes` 属性，函数将针对缺失的属性使用默认值。
